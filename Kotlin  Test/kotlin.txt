@@ -2,28 +2,29 @@ Number 1:
   SELECT * FROM Students;
 
 Number 2:
-SELECT student_name from Students;
+SELECT name, marks FROM Students;
 
 Number 3:
-SELECT DISTINCT town  FROM Students;
+SELECT DISTINCT town FROM Students;
 
 Number 4:
-SELECT student_name FROM WHICH  town="ruiru";
+SELECT name FROM Students WHERE town ="Ruiru" ;
 
 Number 5:
-SELECT student_name,marks FROM  Students_Marks above 80;
+SELECT * FROM Students WHERE marks >85;
 
 Number 6:
-SELECT * FROM `student` ORDER BY mark ascending;
+SELECT name,marks FROM Students ORDER BY marks ASC;
 
 Number 7:
-SELECT student_name,marks FROM  WHICH  Students town="Lodwar" AND Students_Marks above 80;
+SELECT * FROM Students WHERE  marks>80 AND town="Lodwar";
 
 Number 8:
-SELECT student_name,marks from
+SELECT name FROM Students WHERE marks >70 AND WHERE NOT town ="Nairobi"
 
-NUmber 9:
+Number 9:
+Ans 9. SELECT * FROM Students ORDER BY names ASC; 
 
 
 Number 10:
-
+SELECT name FROM Students WHERE marks>80 AND town="Nairobi";
