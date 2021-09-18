@@ -1,0 +1,29 @@
+Number 1:
+  SELECT * FROM Students;
+
+Number 2:
+SELECT student_name from Students;
+
+Number 3:
+SELECT DISTINCT town  FROM Students;
+
+Number 4:
+SELECT student_name FROM WHICH  town="ruiru";
+
+Number 5:
+SELECT student_name,marks FROM  Students_Marks above 80;
+
+Number 6:
+SELECT * FROM `student` ORDER BY mark ascending;
+
+Number 7:
+SELECT student_name,marks FROM  WHICH  Students town="Lodwar" AND Students_Marks above 80;
+
+Number 8:
+SELECT student_name,marks from
+
+NUmber 9:
+
+
+Number 10:
+
